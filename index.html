@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio BTS SIO</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1e293b;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+    }
+
+    header h1 {
+      text-align: center;
+      color: #38bdf8;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #e2e8f0;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #38bdf8;
+      color: #0f172a;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-bottom: 20px;
+      border-left: 4px solid #38bdf8;
+      padding-left: 10px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Portfolio BTS SIO</h1>
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#formation">Formation</a>
+    <a href="#competences">Compétences</a>
+    <a href="#projets">Projets</a>
+    <a href="#stages">Stages</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="accueil">
+  <h2>Accueil</h2>
+  <div class="card">
+    <p>Bienvenue sur mon portfolio BTS SIO.</p>
+    <p><strong>Nom :</strong> [Ton nom]</p>
+    <p><strong>Spécialité :</strong> SLAM / SISR</p>
+    <p><strong>Objectif :</strong> [Ton objectif professionnel]</p>
+  </div>
+</section>
+
+<section id="apropos">
+  <h2>À propos de moi</h2>
+  <div class="card">
+    <p>[Présente-toi ici : personnalité, qualités, passions...]</p>
+  </div>
+</section>
+
+<section id="formation">
+  <h2>Formation</h2>
+  <div class="card">
+    <p>BTS SIO - Services Informatiques aux Organisations</p>
+    <p>[École / Lycée]</p>
+    <p>[Années de formation]</p>
+  </div>
+</section>
+
+<section id="competences">
+  <h2>Compétences</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Développement</h3>
+      <p>HTML, CSS, PHP, C#, SQL...</p>
+    </div>
+    <div class="card">
+      <h3>Réseau</h3>
+      <p>Serveurs, virtualisation, sécurité...</p>
+    </div>
+    <div class="card">
+      <h3>Outils</h3>
+      <p>GitHub, VS Code, MySQL...</p>
+    </div>
+  </div>
+</section>
+
+<section id="projets">
+  <h2>Projets</h2>
+  <div class="card">
+    <h3>Projet 1</h3>
+    <p>Description : [Projet Brawlhalla ou autre]</p>
+    <p>Technologies : HTML, PHP, SQL...</p>
+  </div>
+  <div class="card">
+    <h3>Projet 2</h3>
+    <p>Description : [Autre projet]</p>
+  </div>
+</section>
+
+<section id="stages">
+  <h2>Stages</h2>
+  <div class="card">
+    <p><strong>Entreprise :</strong> [Nom]</p>
+    <p><strong>Missions :</strong> [Tes missions]</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email : [ton email]</p>
+    <p>LinkedIn : [lien]</p>
+    <p>GitHub : [lien]</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 - Portfolio BTS SIO</p>
+</footer>
+
+</body>
+</html>
